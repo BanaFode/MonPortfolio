@@ -1,0 +1,185 @@
+body {
+    background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.305), rgba(0, 255, 255, 0.167));
+    color: black;
+}
+.img-debut{
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.195), 0 -5px 10px 0 rgba(0, 0, 0, 0.195);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin: 30px;
+    }
+.profil{
+    padding: 30px;
+    text-align: center;
+}
+.bull{
+    display: flex;
+    justify-content: center;
+}
+.bull div{
+    background-color: rgba(255, 0, 0, 0.253);
+    height: 4px;
+    width: 4px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.portfolio{
+    margin-bottom: 28px;
+}
+h2{
+    text-align: center;
+}
+.card-portfolio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img-portfolio{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.card-portfolio > div > h4{
+    margin: 5px;
+}
+.card-portfolio > div > p{
+    margin-top: 0px;
+}
+.card-portfolio > div > a input{
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #173459;
+}
+.gras{
+    font-weight: bolder;
+}
+.bleu-fonce{
+    color: #173459;
+}
+.coul-moin{
+    color: rgba(0, 0, 0, 0.681);
+}
+.ombre{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.195), 0 -5px 10px 0 rgba(0, 0, 0, 0.195);
+}
+.tech-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-skill > div{
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.tech-skill2{
+    margin: 12px;
+    text-align: center;
+}
+.tech-skill2 > div{
+    margin: 12px;
+}
+
+.education .educ-skill{
+    text-align: center;
+    margin: 8px;
+}
+.education > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.education .educ-skill :first-child{
+    font-size: 23px;
+}
+.contact > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact > div p{
+   margin: 10px;
+}
+.pied{
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+/*Mobile*/
+@media screen and (max-width:750px) {
+
+    .aligner{
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    .profil{
+        padding: 5px;
+    }   
+    .tech-skill{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .tech-skill > div{
+        margin: 4px;  
+    }
+    .education >div{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .contact > div {
+    display: grid;
+    grid-template-columns: 1;
+    
+}
+}
+
+/*affiche le contenu en fonction du scroller*/
+/*Bas vers haut */
+.content {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+   
+}
+
+.content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/*Gauche vers droite */
+.content1 {
+    opacity: 0;
+    transform: translatex(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+   
+}
+
+.content1.visible1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*fin*/
+
+
