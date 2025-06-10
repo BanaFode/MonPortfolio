@@ -1,248 +1,292 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv=“Pragma” content=”no-cache”>
-    <meta http-equiv=“Expires” content=”-1″>
-    <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
-
-    <title>portfolio Project</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Mon Portfolio</title>
 </head>
 
-<body>
-    <!--Mon Profil-->
-    <header class="header aligner">
-        <div>
-            <img src="assets/images/IMG_7973.jpeg" alt="" class="img-debut">
+<body class="page-acueil">
+    <header class="entete">
+
+        <div class="desktop">
+            <h3>BANA FODE CAMARA</h3>
+            <nav>
+                <a href="">Profil</a>
+                <a href="formations.html">Mes formations</a>
+                <a href="">A propos</a>
+            </nav>
+        </div>
+        <div class="mobile">
+            <label for="clic"> </label>
+            <label for="clic">
+                <input type="checkbox" id="clic">
+                <div class="menu1">
+                    <div class="entete-menu">
+                        <h3>BANA FODE CAMARA</h3>
+                        <i class="fa fa-multiply fa-2x"></i>
+                    </div>
+                    <nav>
+                        <a href="">Profil</a>
+                        <a href="formations.html">Mes formations</a>
+                        <a href="">A propos</a>
+                    </nav>
+                </div>
+            </label>
+            <label for="clic"></label>
+        </div>
+    </header>
+
+    <section class="profil">
+        <div class="presentation">
+            <span>Bonjour, je suis</span>
+            <h1>BANA <span>FODE </span> CAMARA</h1>
+            <p>Je suis Dévéloppeur <span>FrontEnd</span> Junoir Passionné par la création d'interfaces web modernes,
+                fluides, intuitives, accessibles et responsives.</p>
+            <div class="reseau">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+            <a href="assets/doc/Mon_CV_bana_fodé.pdf" target="_blank" class=" btn-1">Télécharger CV</a>
+
+        </div>
+        <div class="bordure">
+            <img src="assets/img/IMG_772.png" alt="jjj" class="maPhoto">
         </div>
 
-        <div class="profil">
-            <h1>Bana Fodé CAMARA</h1>
-            <h4>Developpeur Web</h4>
-            <p class="profil-text">
+    </section>
+
+    <!-- Section a propos de moi -->
+    <section class="AproposMoi">
+        <img src="assets/img/IMG_7972.jpeg" alt="">
+        <div>
+            <h2>A Propos de Moi</h2>
+            <div class="tiret"></div>
+            <p>
                 Etudiant en licence 4 aux Méthodes Informatiques Appliquées à la Gestion des Entreprises. Passionné et
                 motivé par le
-                monde de l’informatique et de la gestion, je suis constamment en quête de nouvelles opportunités
+                monde de l’informatique et la gestion, je suis constamment en quête de nouvelles opportunités
                 d’apprentissages, capable
                 de travailler en groupe et à relever de nouveaux défis pour apporter ma contribution à des projets
                 innovants.
             </p>
+            <div class="Mescompetencespourcen">
+                <div>Developpement FrontEnd</div>
+                <div>60%</div>
+            </div>
+            <progress value="60" max="100">80</progress>
+
+            <div class="Mescompetencespourcen">
+                <div>Web Design</div>
+                <div>50%</div>
+            </div>
+            <progress value="50" max="100"></progress>
+
         </div>
-    </header>
-
-    <main>
-        <section class="bull">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <!-- Section portfolio -->
-        <section class="portfolio">
-            <h2 class="bleu-fonce">Portfolio</h2>
-            <div class="card-portfolio aligner">
-                <div>
-                    <img src="assets/images/gitLogo.png" alt="" class="img-portfolio ombre">
-                    <h4 class="content">Github</h4>
-                    <p class="content1">Jetez un oeil sur mes projets</p>
-                    <a href="https://github.com/BanaFode"><input type="button" value="voir plus" class="ombre"></a>
-                </div>
-                <div>
-                    <img src="assets/images/gitLogo.png" alt="" class="img-portfolio ombre">
-                    <h4 class="content">Github</h4>
-                    <p class="content1">Jetez un oeil sur mes projets</p>
-                    <a href="https://github.com/BanaFode"><input type="button" value="voir plus" class="ombre"></a>
-                </div>
-                <div>
-                    <img src="assets/images/gitLogo.png" alt="" class="img-portfolio ombre">
-                    <h4 class="content">Github</h4>
-                    <p class="content1">Jetez un oeil sur mes projets</p>
-                    <a href="https://github.com/BanaFode"><input type="button" value="voir plus" class="ombre"></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="bull">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <!-- Language et tecnologie -->
-        <section class="skill">
-            <h2 class="bleu-fonce">Skill Summary</h2>
-            <div class="tech-skill">
-                <div class="content1"><i class="fab fa-html5 fa-2x"></i>&nbsp;Html 5</div>
-                <div class="content1"><i class="fab fa-css3 fa-2x"></i>&nbsp;CSS 5</div>
-                <div class="content1"><i class="fab fa-js fa-2x"></i>&nbsp;JavaScript</div>
-                <div class="content1"><i class="fab fa-bootstrap fa-2x"></i>&nbsp;Bootstrap 5</div>
-                <div class="content1"><i class="fab fa-php fa-2x"></i>&nbsp;PHP</div>
-            </div>
-            <div class="tech-skill2 coul-moin">
-                <div class="content"><i class="fas fa-star"></i>&nbsp;Developpeur front End</div>
-                <div class="content"><i class="fas fa-star"></i>&nbsp;Leaderships et prise de parole en public</div>
-                <div class="content"><i class="fas fa-star"></i>&nbsp;Marketing digital</div>
-                <div class="content"><i class="fas fa-star"></i>&nbsp;WinDev 20</div>
-                <div class="content"><i class="fas fa-star"></i>&nbsp;Microsoft Office</div>
-            </div>
-
-        </section>
-
-        <section class="bull">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <!-- Mes realisation -->
-        <section class="realisation">
-            <h2 class="bleu-fonce">Career Highlights</h2>
-            <div class="tech-skill2">
-                <div class="content">
-                    <i class="fas fa-star"></i>&nbsp;<span class="gras">(RAMADEN
-                        RECYCLING)/ WinDev 20</span>
-                    <br>
-                    <span class="coul-moin">
-                        Conception de l’application de gestions
-                        de ventes de l’entreprise de
-                        productions du charbon écologique
-                    </span>
-
-                </div>
-                <div class="content">
-                    <i class="fas fa-star"></i>&nbsp;<span class="gras">(DJANKANA
-                        TECHNOLOGIE)/ WinDev 20</span>
-                    <br>
-                    <span class="coul-moin">
-                        Conception de l’application de gestions de réparations
-                        et de ventes de pièces et accessoires téléphoniques
-                    </span>
-
-                </div>
+    </section>
+    <!-- Mes services -->
+    <section class="services">
+        <h2>Mes Services</h2>
+        <div class="tiret"></div>
+        <div class="mesServices">
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>DEV FrontEnd</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Contactez-moi</a>
             </div>
             <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>Web Designer</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Contactez-moi</a>
             </div>
-        </section>
-
-        <section class="bull">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-
-        <!-- Education-->
-        <section class="education">
-            <h2 class="bleu-fonce">Education</h2>
             <div>
-                <div class="educ-skill content">
-                    <span class="gras">Université Nelson Mandela</span><br>
-                    <span class="coul-moin">licence professionnelle en MIAGE <br>2021-Maintenant</span>
-                </div>
-                <div class="educ-skill content">
-                    <span class="gras">Lycée Gamal Abdel Nasser</span><br>
-                    <span class="coul-moin">BAC<br>2017-2021</span>
-                </div>
-                <div class="educ-skill content">
-                    <span class="gras">Groupe scolaire IKT</span><br>
-                    <span class="coul-moin">BEPC ET CEP<br>2007-2017</span>
-                </div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>Formateur</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Contactez-moi</a>
             </div>
+        </div>
 
-        </section>
-
-        <section class="bull">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <!-- Contact-->
-        <section class="contact content">
-            <h2 class="bleu-fonce">Contact</h2>
+    </section>
+    <!-- Section mes competences -->
+    <section class="competences">
+        <h2>Mes Compétences</h2>
+        <div class="tiret"></div>
+        <div class="Mescompetences">
             <div>
-                <p>Email : <a href="mailto:banafode24@gmail.com">banafode24@gmail.com</a></p>
-                <p>Linkedln : <a
-                        href="https://www.linkedin.com/in/bana-fod%C3%A9-camara-227a5a308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Bana
-                        Fodé CAMARA</a> </p>
+                <div class="Mescompetencespourcen">
+                    <div> <i class="fab fa-html5 fa-2x"></i> HTML 5</div>
+                    <div>90%</div>
+                </div>
+                <progress value="90" max="100"></progress>
+
+                <div class="Mescompetencespourcen">
+                    <div><i class="fab fa-css3 fa-2x"></i> CSS 3</div>
+                    <div>70%</div>
+                </div>
+                <progress value="70" max="100"></progress>
+
+                <div class="Mescompetencespourcen">
+                    <div><i class="fab fa-js fa-2x"></i> Javascript</div>
+                    <div>30%</div>
+                </div>
+                <progress value="30" max="100"></progress>
+
+                <div class="Mescompetencespourcen">
+                    <div>Tailwind Css</div>
+                    <div>35%</div>
+                </div>
+                <progress value="35" max="100"></progress>
+
+                <div class="Mescompetencespourcen">
+                    <div><i class="fab fa-windev fa-2x"></i>Windev</div>
+                    <div>50%</div>
+                </div>
+                <progress value="50" max="100"></progress>
             </div>
+            <div>
+                <div>
+                    <i class="fab fa-bootstrap fa-7x"></i>
+                    <i class="fab fa-github fa-7x"></i>
+                </div>
+                <div>
+                    <i class="fab fa-figma fa-7x"></i>
 
-        </section>
-    </main>
+                </div>
+            </div>
+        </div>
 
+    </section>
+    <!-- Section mes projets -->
+    <section class="projet">
+        <h2>Mes Projets</h2>
+        <div class="tiret"></div>
+        <div class="mesprojet">
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>Réalisation de mon CV</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Voir plus</a>
+            </div>
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>Site vitrine Universitaire</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Voir plus</a>
+            </div>
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>site vitrine (BIG SARL)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Voir plus</a>
+            </div>
+        </div>
+        <div class="mesprojet">
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>Site vitrine (BFCVOYAGE)</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Voir plus</a>
+            </div>
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>DEV FrontEnd</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Voir plus</a>
+            </div>
+            <div>
+                <i class="fa fa-chevron-left fa-3x"></i>
+                <i class="fa fa-chevron-right fa-3x"></i>
+                <h2>DEV FrontEnd</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis, debitis enim. Est quo officia sed ab facilis consectetur,
+                    natus maiores neque fugit consequatur quae quod et corrupti? Sunt,
+                    velit delectus?
+                </p>
+                <a href="" class=" btn-1">Contactez-moi</a>
+            </div>
+        </div>
 
-    <!-- Pied de page-->
-    <footer class="pied">
-        <p class="coul-moin">&COPY; copyright 2025 Bana Fodé CAMARA</p>
+    </section>
+    <!-- Contacter moi -->
+    <section class="contacter">
+        <div class="Mecontacter">
+            <h2>Contactez-moi</h2>
+            <div class="tiret"></div>
+            <div><i class="fab fa-whatsapp fa-2x"></i><a href=""> +224 627 04 63 78</a></div>
+            <div><i class="fa fa-phone fa-2x"></i><a href=""> +224 627 04 63 78</a></div>
+            <div><i class="fa fa-location fa-2x"></i><a href=""> Coronthie 1, Conakry, Guinée</a></div>
+            <a href="assets/doc/Mon_CV_bana_fodé.pdf" class=" btn-1">Télécharger CV</a>
+        </div>
+        <div class="message">
+            <form action="">
+                <input type="text" placeholder="Votre Nom">
+                <input type="text" placeholder="Votre Prénom">
+                <input type="email" placeholder="Votre email">
+                <textarea name="" id="" rows="8" placeholder="Votre Message"></textarea><br>
+                <button type="submit" class="btn-1">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; tous droit reservé Bana Fodé </p>
     </footer>
-
-    <!-- Our codes -->
-    <script src="assets/js/main.js"></script>
 </body>
+
+</html>
